@@ -1,0 +1,16 @@
+# Install Xcode from the mac app store
+# No official flutter tap is available;
+# Install from flutter.dev
+
+tap "homebrew/core"
+tap "homebrew/cask"
+tap "homebrew/bundle"
+tap "dart-lang/dart"
+brew "cocoapods"
+brew "usbmuxd", args: ["HEAD"]
+brew "libimobiledevice", args: ["HEAD"]
+brew "ideviceinstaller"
+brew "ios-deploy"
+brew "dart-lang/dart/dart"
+cask "android-studio"
+cask "visual-studio-code"

@@ -1,0 +1,7 @@
+tap "homebrew/core"
+tap "homebrew/cask"
+tap "homebrew/bundle"
+cask "visual-studio-code"
+cask "dotnet-sdk"
+cask "insomnia"
+cask "postman"
